@@ -1,0 +1,75 @@
+
+@media screen and (max-width:768px) {
+    .nav ul{
+        display: none;
+    }
+    .home  {
+        flex-direction: column-reverse;
+        height: 200%;
+    }
+    .home-img, .home-1{
+    width: 80%;
+    }
+    .details{
+    flex-direction: column;
+    width: 90%;
+    }
+    .details-1, .details-2, .details-3, .details-4{
+    width: 100%;
+    } 
+    .containerr .gallery{
+    flex-direction: column;
+    }
+    .containerr {
+    width: 90%;
+    }
+
+    .sp {
+    font-size: 40px;
+    }
+    .chefs .container  {
+    flex-direction: column;
+    }
+    .chef-1{
+    width:90%;
+    }
+
+    .contact .form {
+    flex-direction: column;
+    width: 80%;
+    }
+
+    .contact .form input {
+    width: 100%;
+    }
+
+    .contact .form button{
+    width: 70%;
+    }
+    .form textarea{
+        width: 100%;
+    }
+    .footer .container {
+    flex-direction: column;
+    gap: 20px;
+    }
+    .sec-1,
+    .sec-2,
+    .sec-3 {
+    width: 100%;
+    }
+    .sec-1 p,
+    .sec-2 button {
+    margin-block: 10px;
+    }
+    .sec-2 ul li {
+    width: 100%;
+    }
+
+}
+
+
+
+
+
+
